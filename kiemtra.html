@@ -1,0 +1,115 @@
+<html lang="vi">
+<head>
+    <title>Danh sách sản phẩm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #cecb30;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .product {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #c72d99;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .product .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #a80d0d;
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <img src="https://www.dmspro.vn/wp-content/uploads/2017/07/Logo-khach-hang-12.png">
+        <a class="navbar-brand" href="#">Trang chủ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tìm kiếm sản phẩm</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sữa thanh trùng</a></li>
+                  <li><a class="dropdown-item" href="#">Sữa tiệt trùng</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sữa tươi</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Thông tin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trang quản lý</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+  <main>
+    <h1>Tìm kiếm sản phẩm
+    <ul>
+        <input type="text">
+        <button>Tìm kiếm</button>
+     </ul>
+    </h1>
+    <div class="container">
+      <h1>Danh sách sản phẩm</h1>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="product">
+            <img src="https://www.mcmilk.com.vn/wp-content/uploads/2021/11/Sua-tuoi-thanh-trung-Co-duong-Hop-giay-900ml-upweb.png" alt="Sữa tươi thanh trùng có đường">
+            <h3>Sữa tươi thanh trùng</h3>
+            <p>Chế biến từ 100% sữa tươi trên cao nguyên Mộc Châu, nơi có truyền thống chăn nuôi bò sữa lâu đời. Sản phẩm được thanh trùng trên dây chuyền hiện đại của Tetra Pak - Thụy Điển ở nhiệt độ thích hợp, giữ trọn hương vị thơm ngon thuần khiết của sữa tươi, giàu canxi, vitamin và khoáng chất. Sản phẩm đạt tiêu chuẩn ISO 9001:2015 và FSSC 22000 .</p>
+            <p class="price">Giá: 20.000đ</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="product">
+            <img src="https://www.minhcaumart.vn/media/com_eshop/products/8936012061734%201.jpg" alt="Sữa tươi tiệt trùng">
+            <h3>Sữa tươi tiệt trùng</h3>
+            <p>Được chế biến từ nguồn sữa tươi thuần khiết trên thảo nguyên Mộc Châu kết hợp với công nghệ từ Châu Âu, tạo ra những sản phẩm sữa tươi trọn vẹn tự nhiên, giàu dinh dưỡng, ngọt lành tươi mát, tốt cho sức khỏe mọi người. Sản phẩm đạt tiêu chuẩn ISO 9001:2015 và FSSC 22000</p>
+            <p class="price">Giá: 20.000đ</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
